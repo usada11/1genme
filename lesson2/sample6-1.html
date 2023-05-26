@@ -47,7 +47,7 @@
         const axisHelper = new THREE.AxisHelper(2); //軸の長さ　X：赤、Y：緑、z：青
         scene.add(axisHelper);
 
-        // 箱を作成
+        // 箱を作成 (入れ替え)
         var geometry = new THREE.BoxGeometry(1, 1, 1);
         var material = new THREE.MeshPhongMaterial({ color: 0x0000ff });
         var box = new THREE.Mesh(geometry, material);

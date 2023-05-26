@@ -46,3 +46,9 @@
         scene.add(gridHelper);
         const axisHelper = new THREE.AxisHelper(2); //軸の長さ　X：赤、Y：緑、z：青
         scene.add(axisHelper);
+
+
+
+    </script>
+</body>
+</html>
